@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bakery</string>
+    <string name="title_activity_page1">Page1</string>
+    <string name="cart">cart</string>
+    <string name="action_settings">action_string</string>
+    <string name="Bakery">Bakery</string>
+    <string name="title_activity_nav">nav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SNP">SNP</string>
+    <string name="tagline">EAT the best</string>
+    <string name="ContactUS">Contact us</string>
+    <string name="Cart">Cart</string>
+    <string name="Share">Share</string>
+    <string name="TodaysSpecial">Todays Special</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_contact_us">Contact_us</string>
+    <string name="title_activity_server">SERVER</string>
+    <string name="dish">Dish Name</string>
+    <string name="title_activity_cake">Cake</string>
+    <string name="buy">BUY</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_details">details</string>
+    <string name="title_activity_cart">Cart</string>
+</resources>

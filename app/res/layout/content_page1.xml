@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bev"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="start|top"
+        android:src="@drawable/ic_local_bar_black_24dp"
+        android:clickable="true"
+
+        android:layout_alignTop="@+id/cake"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cake"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="start|top"
+        android:src="@drawable/ic_cake"
+        android:clickable="true"
+        android:layout_alignTop="@+id/cookie"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cookie"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="start|top"
+        android:src="@drawable/ic_local_dining_black_24dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="67dp"
+
+        android:layout_marginRight="5dp"
+        android:layout_alignParentStart="false"
+        android:cropToPadding="false"
+        tools:ignore="RtlCompat" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/TodaysSpecial"
+        android:id="@+id/title"
+        android:layout_below="@+id/bev"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:theme="@style/AlertDialog.AppCompat"
+        android:textSize="30sp"
+            android:textColor="#000000" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:gravity="bottom"
+    android:id="@+id/l1"
+    android:layout_below="@+id/title"
+    android:background="#ffffff"
+    >
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Choclate_cake"
+        android:layout_weight="1"
+
+        android:src="@drawable/choclate_cake"
+    />
+
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/beverage3"
+        android:src="@drawable/beverage"
+
+        android:layout_weight="1"
+
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:id="@+id/linearLayout"
+        android:weightSum="2"
+        android:background="#ffffff"
+   >
+        <ImageButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/burger"
+            android:src="@drawable/snacks2"
+            android:layout_weight="1"
+    />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pasta"
+            android:src="@drawable/pasta"
+            android:layout_weight="1"
+          />
+    </LinearLayout>
+
+</RelativeLayout>

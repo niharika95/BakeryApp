@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"     android:weightSum="3"
+    android:backgroundTint="#fff9c4">
+
+    <ImageView
+        android:padding="8dp"
+        android:id="@+id/listicon"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.7"
+        android:src="@drawable/ic_menu_send"/>
+    <TextView
+        android:id="@+id/listText"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:text="Dummy Text" />
+
+    <Button
+        android:padding="-80dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        android:layout_weight="0.5"
+        android:id="@+id/btn"
+        android:layout_gravity="center_vertical"
+        android:background="#d50000"
+        android:backgroundTintMode="src_over"
+        android:capitalize="words"
+        android:clickable="true"
+        android:ellipsize="middle"
+        android:elevation="@dimen/abc_action_bar_content_inset_material"
+        android:fontFamily="@string/Bakery"
+        android:focusableInTouchMode="false"
+        android:visibility="visible" />
+
+</LinearLayout>

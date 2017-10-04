@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:id="@+id/carticon"
+        android:layout_weight="0.7"
+        android:layout_gravity="center_vertical"
+        android:src="#ff0000" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv1"
+        android:layout_weight="1.8"
+        android:layout_gravity="center_vertical"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:id="@+id/btn"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_clear"
+        android:background="#ffffff" />
+
+</LinearLayout>

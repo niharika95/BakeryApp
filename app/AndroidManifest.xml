@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bakery.bakery">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Bakery"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Page1"
+            android:label="@string/Bakery"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contact_us"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".Page1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bakery.bakery.Page1" />
+        </activity>
+        <activity
+            android:name=".SERVER"
+            android:label="@string/title_activity_server"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Dish"
+            android:label="Dish"
+            android:parentActivityName=".Page1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bakery.bakery.Page1" />
+        </activity>
+        <activity
+            android:name=".Start"
+            android:label="@string/Bakery"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".details"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".Dish"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bakery.bakery.Dish" />
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="@string/title_activity_cart"
+            android:parentActivityName=".Page1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bakery.bakery.Page1" />
+        </activity>
+    </application>
+
+</manifest>

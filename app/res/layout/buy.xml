@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv3"
+    cardView:cardElevation="15dp"
+    card_view:cardCornerRadius="33dp"
+    android:layout_margin="15dp"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        android:id="@+id/buy"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_red_light" />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
